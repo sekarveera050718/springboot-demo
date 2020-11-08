@@ -44,7 +44,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>livenessprobe</finalName>
+		<finalName>springboot-demo</finalName>
 	</build>
 
 </project>
