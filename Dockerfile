@@ -1,4 +1,4 @@
 FROM openjdk:8
-ADD target/livenessprobe.jar /livenessprobe.jar
+ADD target/springboot-demo.jar /springboot-demo.jar
 EXPOSE 8082
-ENTRYPOINT ["java","-jar","livenessprobe.jar"]
+ENTRYPOINT ["java","-jar","springboot-demo.jar"]
